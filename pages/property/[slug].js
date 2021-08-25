@@ -31,7 +31,7 @@ const Property = ({
                 </p>
             </div>
             <div className="image-container">
-                <Image identifier="main-image" image={mainImage}/>
+                <Image identifier="main-image" image={mainImage} alt="images"/>
             
                 <div className="sub-images">
                     {images.map(({_key, asset}, image) => <Image key={_key} identifier ='image' image ={asset} />) }

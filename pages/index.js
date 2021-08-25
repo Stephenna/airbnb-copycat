@@ -14,7 +14,7 @@ const Home = ({ properties }) => {
             <h1>Places to stay near you</h1>
             <div className="feed">
               {properties.map((property) => (
-                <Link href={`property/${property.slug.current}`}>
+                <Link href={`property/${property.slug.current}`} key={property._id}>
                   <div key={property._id} className="card">
                     <img src={urlFor(property.mainImage)} />
                     <p>{property.reviews.length} review{isMultiple(property.reviews.length)}</p>
