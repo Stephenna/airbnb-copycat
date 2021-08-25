@@ -1,5 +1,5 @@
 import { sanityClient, urlFor } from '../../sanity'
-import { isMultiple, dollar, isCap, isPlural } from '../../../utils'
+import { isMultiple, dollar, isCap, isPlural } from '../../utils'
 import Link from 'next/link'
 import Image from '../../components/Image'
 import Review from '../../components/Review'

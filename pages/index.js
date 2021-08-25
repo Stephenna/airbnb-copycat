@@ -1,6 +1,6 @@
 import { sanityClient, urlFor } from '../sanity'
 import Link from 'next/link'
-import { isMultiple, dollar } from '../../utils'
+import { isMultiple, dollar } from '../utils'
 import DashBoardMap from '../components/DashBoardMap'
 
 
