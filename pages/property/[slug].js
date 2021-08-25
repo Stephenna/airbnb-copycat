@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Image from '../../components/Image'
 import Review from '../../components/Review'
 import Maps from '../../components/Maps'
-import HostImg from '../../components/hostImg'
+
 
 const Property = ({
     title,
@@ -40,7 +40,6 @@ const Property = ({
             </div>
             <div className="section">
                 <div className="info">
-                    <hostImg host={host}/>
                     <h2><p>{isCap(propertyType)} hosted by {host?.name}</p></h2>
                     <p>{guest} guest{isMultiple(guest)} · {bedroom} bedroom{isMultiple(bedroom)} · {bed} bed{isMultiple(bed)}</p>
                     <hr />
